@@ -17,9 +17,6 @@ jobs:
   build:
     name: Build ${{ inputs.arch_label }}
     runs-on: ${{ inputs.runner }}
-    permissions:
-      contents: read
-      packages: write
 
     steps:
       - name: Checkout code
